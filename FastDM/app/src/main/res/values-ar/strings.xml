@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastDM</string>
+
+    <string name="nav_downloads">التنزيلات</string>
+    <string name="nav_browser">المتصفح</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="filter_all">الكل</string>
+    <string name="filter_active">قيد التنزيل</string>
+    <string name="filter_done">المكتملة</string>
+    <string name="total_speed">السرعة الإجمالية</string>
+    <string name="active_count">%1$d نشط</string>
+    <string name="done_count">%1$d مكتمل</string>
+    <string name="pause_all">إيقاف الكل</string>
+    <string name="resume_all">استئناف الكل</string>
+    <string name="add_link">إضافة رابط</string>
+    <string name="empty_title">لا توجد تنزيلات بعد</string>
+    <string name="empty_sub">اضغط «إضافة رابط» أو تصفّح الويب — يتم التقاط التنزيلات تلقائياً.</string>
+
+    <string name="status_queued">في قائمة الانتظار</string>
+    <string name="status_paused">متوقف مؤقتاً · %1$s من %2$s</string>
+    <string name="status_paused_unknown">متوقف مؤقتاً · %1$s</string>
+    <string name="status_saving">جارٍ الحفظ في التنزيلات…</string>
+    <string name="status_completed">اكتمل · %1$s</string>
+    <string name="status_failed">فشل · %1$s</string>
+
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_open">فتح</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="menu_refresh_link">تحديث الرابط</string>
+    <string name="menu_copy_link">نسخ الرابط</string>
+    <string name="menu_delete">حذف</string>
+
+    <string name="dlg_add_title">إضافة تنزيل</string>
+    <string name="dlg_url">الرابط</string>
+    <string name="dlg_file_name">اسم الملف (اختياري)</string>
+    <string name="dlg_paste">لصق</string>
+    <string name="dlg_start">ابدأ</string>
+    <string name="dlg_cancel">إلغاء</string>
+    <string name="dlg_confirm_title">تنزيل الملف؟</string>
+    <string name="dlg_size">الحجم: %1$s</string>
+    <string name="dlg_size_unknown">الحجم غير معروف</string>
+    <string name="dlg_download">تنزيل</string>
+    <string name="dlg_delete_title">حذف التنزيل؟</string>
+    <string name="dlg_delete_file">حذف الملف أيضاً</string>
+    <string name="dlg_refresh_title">تحديث الرابط</string>
+    <string name="dlg_refresh_hint">ألصق رابطاً جديداً لنفس الملف، أو افتح صفحة التنزيل في المتصفح وابدأ التنزيل مجدداً وسيتم التقاط الرابط الجديد تلقائياً.</string>
+    <string name="dlg_new_link">الرابط الجديد</string>
+    <string name="dlg_update">تحديث</string>
+    <string name="dlg_capture">التقاط من المتصفح</string>
+    <string name="capture_banner">بانتظار رابط تنزيل جديد لـ «%1$s». ابدأ التنزيل من الصفحة.</string>
+
+    <string name="msg_added">تمت الإضافة إلى التنزيلات</string>
+    <string name="msg_already_added">هذا الرابط موجود بالفعل في القائمة</string>
+    <string name="msg_invalid_link">رابط غير صالح</string>
+    <string name="msg_link_updated">تم تحديث الرابط، جارٍ الاستئناف…</string>
+    <string name="msg_link_copied">تم نسخ الرابط</string>
+    <string name="msg_cant_open">لا يوجد تطبيق لفتح هذا الملف</string>
+    <string name="msg_filters_updated">تم تحديث قائمة الحظر: %1$d نطاق</string>
+    <string name="msg_data_cleared">تم مسح بيانات التصفح</string>
+    <string name="msg_blob">لا يمكن تنزيل هذا النوع من الروابط مباشرة</string>
+
+    <string name="err_expired">انتهت صلاحية الرابط أو تم رفض الوصول (HTTP %1$d). استخدم «تحديث الرابط».</string>
+    <string name="err_http">خطأ من الخادم (HTTP %1$d)</string>
+    <string name="err_size_changed">الرابط الجديد يشير إلى ملف بحجم مختلف</string>
+    <string name="err_not_resumable">الرابط الجديد لا يدعم الاستئناف</string>
+    <string name="err_network">خطأ في الشبكة</string>
+
+    <string name="browser_search_hint">ابحث أو اكتب العنوان</string>
+    <string name="browser_new_tab">تبويب جديد</string>
+    <string name="browser_tabs">التبويبات</string>
+    <string name="browser_reload">إعادة تحميل</string>
+    <string name="browser_stop">إيقاف</string>
+    <string name="browser_forward">للأمام</string>
+    <string name="browser_back">للخلف</string>
+    <string name="browser_home">الرئيسية</string>
+    <string name="browser_desktop">نسخة سطح المكتب</string>
+    <string name="browser_adblock">مانع الإعلانات</string>
+    <string name="browser_blocked">تم حظر %1$d في هذه الصفحة</string>
+    <string name="browser_close">إغلاق</string>
+    <string name="link_download">تنزيل الرابط</string>
+    <string name="link_open_tab">فتح في تبويب جديد</string>
+    <string name="link_copy">نسخ الرابط</string>
+    <string name="err_page_title">تعذّر فتح هذه الصفحة</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_downloads">التنزيلات</string>
+    <string name="settings_max_concurrent">التنزيلات المتزامنة</string>
+    <string name="settings_segments">عدد الأجزاء لكل ملف</string>
+    <string name="settings_segments_hint">المزيد من الأجزاء قد يزيد السرعة، لكن بعض الخوادم تقيّد عدد الاتصالات.</string>
+    <string name="settings_browser">المتصفح</string>
+    <string name="settings_homepage">الصفحة الرئيسية</string>
+    <string name="settings_adblock">حظر الإعلانات</string>
+    <string name="settings_adblock_sub">يحظر الإعلانات والمتتبعات داخل المتصفح المدمج</string>
+    <string name="settings_update_filters">تحديث قائمة الحظر</string>
+    <string name="settings_updating">جارٍ التحديث…</string>
+    <string name="settings_clear_data">مسح بيانات التصفح</string>
+    <string name="settings_storage">التخزين</string>
+    <string name="settings_storage_path">تُحفظ الملفات في التنزيلات/FastDM</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="about_text">FastDM 1.0 — تنزيل سريع على أجزاء مع الاستئناف وتحديث الرابط ومتصفح مدمج.</string>
+
+    <string name="notif_channel_progress">تقدم التنزيل</string>
+    <string name="notif_channel_done">التنزيلات المكتملة</string>
+    <string name="notif_title">%1$d تنزيلات قيد التنفيذ</string>
+    <string name="notif_done">اكتمل التنزيل</string>
+    <string name="notif_failed">فشل التنزيل</string>
+</resources>
